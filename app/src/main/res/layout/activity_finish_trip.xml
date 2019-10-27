@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinishTripActivity">
+
+    <Button
+        android:id="@+id/btnScanBarcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200sp"
+        android:text="Scan barcode to finish operations" />
+
+    <Button
+        android:id="@+id/btnPlayGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnScanBarcode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:text="Play a game while waiting in line" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPlayGame"
+        android:layout_centerHorizontal="true"
+        android:text="(You can win some promos from our partners)"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnStartAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:text="Start over" />
+
+</RelativeLayout>

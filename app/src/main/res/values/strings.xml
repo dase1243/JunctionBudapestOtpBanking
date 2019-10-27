@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OtpBanking</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCHYMVWF6t1DMM86q2NPqMVIwGevVZRgYc</string>
+
+</resources>
